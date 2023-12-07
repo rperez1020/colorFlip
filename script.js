@@ -30,6 +30,8 @@ function setupGame(){
     colorShift(tileSeven);
     colorShift(tileEight);
     colorShift(tileNine);
+
+    win.style.fontSize = '0px'
 }
 
 function colorShift(i){
@@ -53,7 +55,6 @@ function checkWin(){
         && tileSeven.innerHTML < 0
         && tileEight.innerHTML < 0
         && tileNine.innerHTML < 0){
-            //alert("You Win!");
             win.style.fontSize = '20px';
         }
     

@@ -17,6 +17,12 @@ div{
     font-size: 0;
 }
 
+#winMessage{
+    height: 100px;
+    color: white;
+    border: none;
+}
+
 div:hover{
     border: black 1px solid;
 }
